@@ -62,7 +62,7 @@ def load_data(city, month, day):
     df['day'] = df['Start Time'].dt.dayofweek
     if month!='all':
         df = df[df['month']==month_data[month]]
-    if day != 'all':
+    if day == 'all':
         # filter by day of week to create the new dataframe
         df = df[df['day'] == day_data[day]]
 
