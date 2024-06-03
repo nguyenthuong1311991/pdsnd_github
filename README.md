@@ -15,8 +15,8 @@ thuong
    - most common hour of day
 
 2. Popular stations and trip
-   - most common start station
-   - most common end station
+   - most common start station-1
+   - most common end station-2
    - most common trip from start to end (i.e., most frequent combination of start station and end station)
 
 3. Trip duration
